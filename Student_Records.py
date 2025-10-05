@@ -1,4 +1,4 @@
-import os  # to find the Documents folder
+import os # to find the Documents folder
 
 # Get the path to the Documents folder
 documents_path = os.path.expanduser("~/Documents")
@@ -16,7 +16,8 @@ while True:
 
     choice = input("Enter your choice: ")
 
-    # Option 1: Register a new student
+    # Option 1: Register a new student   
+    
     if choice == "1":
         print("\n--- Register Student ---")
         student_no = input("Student No.: ")
